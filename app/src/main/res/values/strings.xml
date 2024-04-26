@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Hass del Oriente</string>
+    <string name="descripcion_logo">logo de hass del oriente</string>
+    <string name="boton_bienvenida">Bienvenido</string>
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="subtitulo_login">¡Hola, nos alegra verte de nuevo!</string>
+    <string name="etiqueta_email">Email</string>
+    <string name="etiqueta_paswword">Password</string>
+    <string name="hint_email">ejemplo@email.com</string>
+    <string name="hint_password">**************</string>
+    <string name="boton_ingresar">Ingresar</string>
+    <string name="txt_olvidopassword">¿Olvidaste tu contraseña?</string>
+    <string name="txt_registrarse">Registrarse</string>
+    <string name="txt_Anterior">Anterior</string>
+    <string name="txt_tipoUsuario">Tipo de usuario *</string>
+    <string name="txt_numDocum">Número de documento *</string>
+    <string name="txt_primerNombre">Primer nombre *</string>
+    <string name="txt_segundoNombre">Segundo nombre</string>
+    <string name="txt_primerApellido">Primer apellido *</string>
+    <string name="txt_segundoApellido">Segundo apellido</string>
+    <string name="hint_tipoUsuario">Seleccione natural o juridico</string>
+    <string name="hint_numDocum">Documento de identidad</string>
+    <string name="hint_primerNombre">Ejemplo Fabian</string>
+    <string name="hint_segundoNombre">Opcional</string>
+    <string name="hint_primerApellido">Ejemplo Perea</string>
+    <string name="hint_segundoApellido">Opcional</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="check_terminos">Estoy de acuerdo con </string>
+    <string name="txt_terminos">terminos , Servicios y Politicas de privacidad</string>
+    <string name="txt_ttituloContraseña">Crea una contraseña</string>
+    <string name="txt_contraseña">Contraseña</string>
+    <string name="txt_confiContraseña">Confirmar contraseña</string>
+    <string name="boton_registrarse">Registrarse</string>
+    <string name="txt_tienesCuenta">¿Ya tienes una cuenta?</string>
+    <string name="txt_tituloPerfil">¡Hola Usuario!</string>
+
+
+</resources>
