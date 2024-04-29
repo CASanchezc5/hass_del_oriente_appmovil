@@ -13,6 +13,7 @@
     <string name="txt_registrarse">Registrarse</string>
     <string name="txt_Anterior">Anterior</string>
     <string name="txt_tipoUsuario">Tipo de usuario *</string>
+    <string name="txt_tipoUsuario1">Tipo de usuario </string>
     <string name="txt_numDocum">Número de documento *</string>
     <string name="txt_primerNombre">Primer nombre *</string>
     <string name="txt_segundoNombre">Segundo nombre</string>
@@ -33,6 +34,13 @@
     <string name="boton_registrarse">Registrarse</string>
     <string name="txt_tienesCuenta">¿Ya tienes una cuenta?</string>
     <string name="txt_tituloPerfil">¡Hola Usuario!</string>
+    <string name="txt_usuarioNatural">Natural</string>
+    <string name="txt_documento">Documento</string>
+    <string name="hint_documento">C.C 1020448234</string>
+    <string name="txt_Nombre">Nombre </string>
+    <string name="hint_nombre">Fabian Andrés Perea Mosquera</string>
+    <string name="boton_irProductos">Ir productos</string>
+
 
 
 </resources>
