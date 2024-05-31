@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class checkin1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    //Metodo para el boton siguiente
+    public void siguiente(View view){
+        Intent siguiente = new Intent(this, CreatePassword.class);
+        startActivity(siguiente);
     }
 }

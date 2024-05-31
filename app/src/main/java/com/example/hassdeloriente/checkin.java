@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -22,6 +24,12 @@ public class checkin extends AppCompatActivity {
         String [] opciones = {"Persona natural", "Persona juridica"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item_desplegable, opciones);
         spinner.setAdapter(adapter);
+    }
+
+    //Metodo para el boton siguiente
+    public void siguiente(View view){
+        Intent siguiente = new Intent(this, checkin1.class);
+        startActivity(siguiente);
     }
 
 
