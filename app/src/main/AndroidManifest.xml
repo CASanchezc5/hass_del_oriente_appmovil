@@ -17,13 +17,13 @@
             android:exported="false" />
         <activity
             android:name=".CreatePassword"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".checkin1"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".checkin"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Login"
             android:exported="false" />
