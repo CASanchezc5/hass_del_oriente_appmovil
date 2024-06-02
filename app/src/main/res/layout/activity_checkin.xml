@@ -102,6 +102,7 @@
             android:background="@drawable/boton_redondeado"
             android:elevation="30dp"
             android:fontFamily="@font/asap"
+            android:onClick="siguiente"
             android:padding="10dp"
             android:text="@string/boton_siguiente"
             android:textSize="17sp"

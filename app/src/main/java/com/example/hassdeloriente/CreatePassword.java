@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class CreatePassword extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    //Metodo para el boton registrarse (este solo va a cambiar de activity)
+    public void registrarse(View view){
+        Intent registrarse = new Intent(this, profile.class);
+        startActivity(registrarse);
     }
 }
