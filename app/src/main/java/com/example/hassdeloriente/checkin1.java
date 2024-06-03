@@ -29,4 +29,10 @@ public class checkin1 extends AppCompatActivity {
         Intent siguiente = new Intent(this, CreatePassword.class);
         startActivity(siguiente);
     }
+
+    //Metodo para el TextView anterior
+    public void anterior(View view){
+        Intent anterior = new Intent(this, checkin.class);
+        startActivity(anterior);
+    }
 }
