@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,5 +18,11 @@ public class Login extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
 
+    }
+
+    //Metodo para el boton ingresar
+    public void ingresar(View view){
+        Intent ingresar = new Intent(this, checkin.class);
+        startActivity(ingresar);
     }
 }

@@ -108,6 +108,7 @@
             android:background="@drawable/boton_redondeado"
             android:elevation="30dp"
             android:fontFamily="@font/asap"
+            android:onClick="ingresar"
             android:padding="10dp"
             android:text="@string/boton_ingresar"
             android:textSize="17sp"

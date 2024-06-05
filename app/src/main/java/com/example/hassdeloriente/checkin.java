@@ -27,7 +27,7 @@ public class checkin extends AppCompatActivity {
     }
 
     //Metodo para el boton siguiente
-    public void siguiente(View view){
+    public void siguiente(View view) {
         Intent siguiente = new Intent(this, checkin1.class);
         startActivity(siguiente);
     }

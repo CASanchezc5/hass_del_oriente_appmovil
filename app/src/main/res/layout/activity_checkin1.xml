@@ -34,12 +34,13 @@
             android:id="@+id/txt_anterior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/asap"
+            android:onClick="anterior"
             android:text="@string/txt_Anterior"
             android:textColor="@color/greendark"
-            android:textSize="14sp"
-            android:fontFamily="@font/asap"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView12"
