@@ -16,7 +16,7 @@
       <SelectionState runConfigName="checkin">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="frontPage">
+      <SelectionState runConfigName="checkin1">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
