@@ -31,4 +31,8 @@ public class shoppingCart extends AppCompatActivity {
         Intent tienda = new Intent(this, Products.class);
         startActivity(tienda);
     }
+    public void comprar (View view){
+        Intent carrito = new Intent(this, ticket.class);
+        startActivity(carrito);
+    }
 }

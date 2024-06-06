@@ -145,8 +145,8 @@
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="406dp"
-        android:layout_height="102dp"
+        android:layout_width="427dp"
+        android:layout_height="112dp"
         android:background="#8BC34A"
         android:gravity="center|center_horizontal"
         android:onClick="tienda"
