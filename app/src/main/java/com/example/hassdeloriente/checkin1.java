@@ -35,4 +35,8 @@ public class checkin1 extends AppCompatActivity {
         Intent anterior = new Intent(this, checkin.class);
         startActivity(anterior);
     }
+    public void  IniciarSesion (View view){
+        Intent inicioSesion = new Intent(this, Login.class);
+        startActivity(inicioSesion);
+    }
 }

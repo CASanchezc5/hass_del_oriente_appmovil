@@ -5,55 +5,51 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Bill">
+    tools:context=".ticket">
 
     <TextView
-        android:id="@+id/tvPerfil"
+        android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
+        android:onClick="Perfil"
         android:text="Perfil"
-        android:textColor="#008000"
+        android:textColor="#4CAF50"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
-        android:id="@+id/tvFactura"
+        android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:text="Factura"
-        android:textSize="22sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintVertical_bias="0.201" />
 
     <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="304dp"
-        android:layout_height="299dp"
-        android:background="#C1C0C0"
+        android:id="@+id/linearLayout4"
+        android:layout_width="248dp"
+        android:layout_height="266dp"
+        android:background="#C8C8C8"
         android:orientation="vertical"
-        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449">
+        app:layout_constraintVertical_bias="0.498">
 
         <TextView
-            android:id="@+id/tvId"
+            android:id="@+id/textView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -61,62 +57,55 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tvFacturaNumero"
+            android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
             android:text="Factura #1"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tvNIT"
+            android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
             android:text="NIT 1.020.448.290"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tvEmpresa"
+            android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
             android:text="Hass del oriente S.A.S"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_height="23dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvDescripcion"
-                android:layout_width="0dp"
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Descripción"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvCantidad"
-                android:layout_width="0dp"
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Cantidad"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvValor"
-                android:layout_width="0dp"
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Valor"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -125,50 +114,52 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvProductoDescripcion"
-                android:layout_width="0dp"
+                android:id="@+id/textView33"
+                android:layout_width="92dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Aguacate Hass"
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/tvProductoCantidad"
-                android:layout_width="0dp"
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="4 KG"
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/tvProductoValor"
-                android:layout_width="0dp"
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="$24.000"
                 android:textSize="16sp" />
         </LinearLayout>
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="426dp"
-        android:layout_height="97dp"
-        android:background="#008000"
-        android:text="Volver a la tienda"
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="406dp"
+        android:layout_height="102dp"
+        android:background="#8BC34A"
+        android:gravity="center|center_horizontal"
+        android:onClick="tienda"
+        android:text="Volver a tienda"
         android:textColor="#FFFFFF"
+        android:textColorLink="#F6F3F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
+        app:layout_constraintVertical_bias="0.996" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

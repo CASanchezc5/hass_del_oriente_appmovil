@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,10 @@ public class profile extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    //Metodo para boton productos
+    public void IrProductos (View view){
+        Intent productos = new Intent(this, Products.class);
+        startActivity(productos);
     }
 }

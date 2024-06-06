@@ -26,7 +26,8 @@
             android:layout_marginEnd="20dp"
             android:fontFamily="@font/asap"
             android:gravity="end"
-            android:text="@string/titulo_login"
+            android:onClick="IniciarSesion"
+            android:text="IniciarSesion"
             android:textColor="@color/greendark"
             android:textSize="14sp" />
 

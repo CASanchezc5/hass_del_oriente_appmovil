@@ -21,6 +21,6 @@ public class frontPage  extends Activity {
                 startActivity(intent);
                 finish();  // Finaliza la actividad actual para que el usuario no pueda volver a ella
             }
-        }, 3000); // 3000 milisegundos = 3 segundos
+        }, 2000); // 2000 milisegundos = 2 segundos
     }
 }

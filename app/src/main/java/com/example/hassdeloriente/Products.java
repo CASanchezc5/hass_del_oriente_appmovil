@@ -1,6 +1,8 @@
 package com.example.hassdeloriente;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,15 @@ public class Products extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Perfil (View view){
+        Intent profile = new Intent(this, com.example.hassdeloriente.profile.class);
+        startActivity(profile);
+    }
+
+    public void Comprar (View view){
+        Intent carrito = new Intent(this, shoppingCart.class);
+        startActivity(carrito);
     }
 }

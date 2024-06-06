@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+    android:onClick="Comprar"
     tools:context=".Products">
 
 
@@ -17,6 +18,7 @@
         android:id="@+id/textView22"
         android:layout_width="75dp"
         android:layout_height="35dp"
+        android:onClick="Perfil"
         android:text="Perfil"
         android:textColor="#7FC32F"
         android:textColorHint="#BDF878"
@@ -53,8 +55,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="341dp"
-        android:layout_height="415dp"
+        android:layout_width="350dp"
+        android:layout_height="424dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:backgroundTint="#8BC34A"
         android:orientation="vertical"
@@ -115,6 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@android:color/holo_green_light"
+            android:onClick="Comprar"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Comprar"

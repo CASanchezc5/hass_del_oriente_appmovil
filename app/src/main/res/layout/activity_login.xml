@@ -23,7 +23,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="130dp"
             android:fontFamily="@font/quicksand_light"
-            android:text="@string/titulo_login"
+            android:text="Iniciar sesion"
             android:textColor="@color/greendark"
             android:textSize="26sp"
             android:textStyle="bold" />
@@ -131,10 +131,11 @@
         <TextView
             android:id="@+id/txt_registrarse"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="41dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/asap"
             android:gravity="center"
+            android:onClick="registrarse"
             android:text="@string/txt_registrarse"
             android:textColor="#2E7D32"
             android:textSize="16sp" />

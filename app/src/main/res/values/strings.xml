@@ -2,7 +2,7 @@
     <string name="app_name">Hass del Oriente</string>
     <string name="descripcion_logo">logo de hass del oriente</string>
     <string name="boton_bienvenida">Bienvenido</string>
-    <string name="titulo_login">Iniciar Sesión</string>
+
     <string name="subtitulo_login">¡Hola, nos alegra verte de nuevo!</string>
     <string name="etiqueta_email">Email</string>
     <string name="etiqueta_paswword">Password</string>

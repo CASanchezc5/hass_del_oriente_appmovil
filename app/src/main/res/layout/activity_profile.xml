@@ -137,6 +137,7 @@
             android:background="@drawable/boton_redondeado"
             android:elevation="30dp"
             android:fontFamily="@font/asap"
+            android:onClick="IrProductos"
             android:padding="10dp"
             android:text="@string/boton_irProductos"
             android:textSize="17sp"

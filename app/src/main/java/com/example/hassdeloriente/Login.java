@@ -22,7 +22,12 @@ public class Login extends AppCompatActivity {
 
     //Metodo para el boton ingresar
     public void ingresar(View view){
-        Intent ingresar = new Intent(this, checkin.class);
+        Intent ingresar = new Intent(this, profile.class);
         startActivity(ingresar);
+    }
+    //Metodo para el boton registrarse
+    public  void registrarse (View view){
+        Intent registrar = new Intent(this, checkin.class);
+        startActivity(registrar);
     }
 }

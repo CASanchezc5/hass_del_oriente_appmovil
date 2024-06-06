@@ -29,4 +29,10 @@ public class CreatePassword extends AppCompatActivity {
         Intent registrarse = new Intent(this, profile.class);
         startActivity(registrarse);
     }
+
+    //Metodo para el boton iniciar sesion
+    public void IniciarSesion (View view){
+        Intent inicioSesion = new Intent(this, Login.class);
+        startActivity(inicioSesion);
+    }
 }
