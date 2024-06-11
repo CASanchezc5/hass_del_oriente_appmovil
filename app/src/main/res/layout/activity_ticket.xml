@@ -11,6 +11,7 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/asap"
         android:onClick="Perfil"
         android:text="Perfil"
         android:textColor="#4CAF50"
@@ -24,21 +25,24 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/asap"
         android:text="Factura"
-        android:textSize="24sp"
+        android:textColor="@color/greendark"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
+        app:layout_constraintVertical_bias="0.164" />
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="248dp"
-        android:layout_height="266dp"
+        android:layout_width="252dp"
+        android:layout_height="297dp"
         android:background="#C8C8C8"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,22 +57,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/asap"
             android:text="id 345678"
             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/asap"
             android:text="Factura #1"
             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/asap"
             android:text="NIT 1.020.448.290"
             android:textSize="16sp" />
 
@@ -77,9 +94,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/asap"
             android:text="Hass del oriente S.A.S"
             android:textSize="16sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,6 +113,7 @@
                 android:id="@+id/textView29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/asap"
                 android:text="Descripción"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -98,6 +122,7 @@
                 android:id="@+id/textView30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/asap"
                 android:text="Cantidad"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -106,6 +131,7 @@
                 android:id="@+id/textView31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/asap"
                 android:text="Valor"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -121,6 +147,7 @@
                 android:layout_width="92dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/asap"
                 android:text="Aguacate Hass"
                 android:textSize="16sp" />
 
@@ -129,6 +156,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/asap"
                 android:text="4 KG"
                 android:textSize="16sp" />
 
@@ -137,6 +165,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/asap"
                 android:text="$24.000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -148,12 +177,13 @@
         android:layout_width="427dp"
         android:layout_height="112dp"
         android:background="#8BC34A"
+        android:fontFamily="@font/asap"
         android:gravity="center|center_horizontal"
         android:onClick="tienda"
         android:text="Volver a tienda"
         android:textColor="#FFFFFF"
         android:textColorLink="#F6F3F3"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

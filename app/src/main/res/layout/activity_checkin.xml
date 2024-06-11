@@ -27,7 +27,7 @@
             android:fontFamily="@font/asap"
             android:gravity="end"
             android:onClick="IniciarSesion"
-            android:text="IniciarSesion"
+            android:text="Iniciar Sesión"
             android:textColor="@color/greendark"
             android:textSize="14sp" />
 
